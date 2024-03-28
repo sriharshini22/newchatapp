@@ -1,0 +1,81 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-chatapp-dev-171640-authRole",
+      "UnauthRoleArn": "arn:aws:iam::812935980374:role/amplify-chatapp-dev-171640-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::812935980374:role/amplify-chatapp-dev-171640-authRole",
+      "region": "ca-central-1",
+      "DeploymentBucketName": "amplify-chatapp-dev-171640-deployment",
+      "UnauthRoleName": "amplify-chatapp-dev-171640-unauthRole",
+      "StackName": "amplify-chatapp-dev-171640",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:812935980374:stack/amplify-chatapp-dev-171640/befba310-fd40-11ed-8c2e-0a695461543b",
+      "AmplifyAppId": "d379bjgw552y3e"
+    }
+  },
+  "chatapp": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-chatapp-chatapp-143142-authRole",
+      "UnauthRoleArn": "arn:aws:iam::333784189793:role/amplify-chatapp-chatapp-143142-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::333784189793:role/amplify-chatapp-chatapp-143142-authRole",
+      "region": "ca-central-1",
+      "DeploymentBucketName": "amplify-chatapp-chatapp-143142-deployment",
+      "UnauthRoleName": "amplify-chatapp-chatapp-143142-unauthRole",
+      "StackName": "amplify-chatapp-chatapp-143142",
+      "StackId": "arn:aws:cloudformation:ca-central-1:333784189793:stack/amplify-chatapp-chatapp-143142/d7a79fb0-d097-11ee-8512-061e572dc6d2",
+      "AmplifyAppId": "d1bclgyyjnhf9y"
+    },
+    "categories": {
+      "auth": {
+        "chatappd335a59c": {
+          "userPoolId": "ca-central-1_LAC9jmnfS",
+          "userPoolName": "ChatUserPool04B192D3-uGimu8aWJNgr",
+          "webClientId": "2bt925vbsqmnuksitl99rfr71d",
+          "nativeClientId": "2bt925vbsqmnuksitl99rfr71d",
+          "identityPoolId": "ca-central-1:9e817c20-9cc1-4e83-94b7-a4825e06f822",
+          "identityPoolName": "ChatIdentityPool",
+          "allowUnauthenticatedIdentities": true,
+          "authRoleArn": "arn:aws:iam::333784189793:role/AuthStack-ChatIdentityPoolAuthenticatedRole7F389461-pjWeRiXstr5o",
+          "authRoleName": "AuthStack-ChatIdentityPoolAuthenticatedRole7F389461-pjWeRiXstr5o",
+          "unauthRoleArn": "arn:aws:iam::333784189793:role/AuthStack-ChatIdentityPoolUnauthenticatedRoleCB37EE-44eW0x2y25Pn",
+          "unauthRoleName": "AuthStack-ChatIdentityPoolUnauthenticatedRoleCB37EE-44eW0x2y25Pn"
+        }
+      }
+    }
+  },
+  "main": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-chatapp-main-164939-authRole",
+      "UnauthRoleArn": "arn:aws:iam::333784189793:role/amplify-chatapp-main-164939-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::333784189793:role/amplify-chatapp-main-164939-authRole",
+      "Region": "ca-central-1",
+      "DeploymentBucketName": "amplify-chatapp-main-164939-deployment",
+      "UnauthRoleName": "amplify-chatapp-main-164939-unauthRole",
+      "StackName": "amplify-chatapp-main-164939",
+      "StackId": "arn:aws:cloudformation:ca-central-1:333784189793:stack/amplify-chatapp-main-164939/1a11dd40-da19-11ee-8d1c-0e2728c827ad",
+      "AmplifyAppId": "d8h1brs71w2on"
+    },
+    "categories": {
+      "auth": {
+        "chatappd335a59c": {
+          "userPoolId": "ca-central-1_LAC9jmnfS",
+          "userPoolName": "ChatUserPool04B192D3-uGimu8aWJNgr",
+          "webClientId": "2bt925vbsqmnuksitl99rfr71d",
+          "nativeClientId": "2bt925vbsqmnuksitl99rfr71d",
+          "identityPoolId": "ca-central-1:9e817c20-9cc1-4e83-94b7-a4825e06f822",
+          "identityPoolName": "ChatIdentityPool",
+          "allowUnauthenticatedIdentities": true,
+          "authRoleArn": "arn:aws:iam::333784189793:role/AuthStack-ChatIdentityPoolAuthenticatedRole7F389461-pjWeRiXstr5o",
+          "authRoleName": "AuthStack-ChatIdentityPoolAuthenticatedRole7F389461-pjWeRiXstr5o",
+          "unauthRoleArn": "arn:aws:iam::333784189793:role/AuthStack-ChatIdentityPoolUnauthenticatedRoleCB37EE-44eW0x2y25Pn",
+          "unauthRoleName": "AuthStack-ChatIdentityPoolUnauthenticatedRoleCB37EE-44eW0x2y25Pn"
+        }
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d8h1brs71w2on",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}

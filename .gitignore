@@ -1,0 +1,72 @@
+#============ Backend ==============
+
+chat-app-backend/*.js
+chat-app-backend/!**/addUserToDB/index.js
+chat-app-backend/!jest.config.js
+chat-app-backend/*.d.ts
+chat-app-backend/node_modules
+
+# CDK asset staging directory
+chat-app-backend/.cdk.staging
+chat-app-backend/cdk.out
+chat-app-backend/output.json
+
+#============= Fontend ==============
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+chat-app-frontend/node_modules
+chat-app-frontend/.pnp
+chat-app-frontend/.pnp.js
+
+# testing
+chat-app-frontend/coverage
+
+# next.js
+chat-app-frontend/.next/
+chat-app-frontend/out/
+
+# production
+chat-app-frontend/build
+
+# misc
+chat-app-frontend/.DS_Store
+chat-app-frontend/*.pem
+
+# debug
+chat-app-frontend/npm-debug.log*
+chat-app-frontend/yarn-debug.log*
+chat-app-frontend/yarn-error.log*
+chat-app-frontend/.pnpm-debug.log*
+
+# local env files
+chat-app-frontend/.env*.local
+
+# vercel
+chat-app-frontend/.vercel
+
+# typescript
+chat-app-frontend/*.tsbuildinfo
+chat-app-frontend/next-env.d.ts
+
+#amplify-do-not-edit-begin
+chat-app-frontend/amplify/\#current-cloud-backend
+chat-app-frontend/amplify/.config/local-*
+chat-app-frontend/amplify/logs
+chat-app-frontend/amplify/mock-data
+chat-app-frontend/amplify/mock-api-resources
+chat-app-frontend/amplify/backend/amplify-meta.json
+chat-app-frontend/amplify/backend/.temp
+chat-app-frontend/build/
+chat-app-frontend/dist/
+chat-app-frontend/node_modules/
+chat-app-frontend/aws-exports.js
+chat-app-frontend/awsconfiguration.json
+chat-app-frontend/amplifyconfiguration.json
+chat-app-frontend/amplifyconfiguration.dart
+chat-app-frontend/amplify-build-config.json
+chat-app-frontend/amplify-gradle-config.json
+chat-app-frontend/amplifytools.xcconfig
+chat-app-frontend/.secret-*
+chat-app-frontend/**.sample
+#amplify-do-not-edit-end

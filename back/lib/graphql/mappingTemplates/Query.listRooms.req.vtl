@@ -1,0 +1,19 @@
+#set( $limit = $util.defaultIfNull($ctx.args.limit, 100) )
+#set( $ListRequest = {
+  "version": "2018-05-29",
+  "operation": "Scan",
+  "limit": $limit,
+  "filter":{
+    "expression": "contains(#users, :userId)",
+    "expressionNames": {
+      "#users": "users"
+    },
+    "expressionValues": {
+      ":userId": $util.dynamodb.toString($ctx.args.userId)
+    }
+  }
+})
+#if( $ctx.args.nextToken )
+  #set( $ListRequest.nextToken = $ctx.args.nextToken )
+#end
+$util.toJson($ListRequest)
